@@ -1,0 +1,27 @@
+{
+  "name": "js-tdd",
+  "version": "1.0.0",
+  "description": "Repo de testes automatizados com js",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrehhtm/js-tdd.git"
+  },
+  "keywords": [
+    "Javascript",
+    "TDD",
+    "Test",
+    "Driven",
+    "Development",
+    "Testes"
+  ],
+  "author": "André Ramos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andrehhtm/js-tdd/issues"
+  },
+  "homepage": "https://github.com/andrehhtm/js-tdd#readme"
+}
