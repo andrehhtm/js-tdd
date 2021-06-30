@@ -6,7 +6,6 @@
     "scripts": {
         "test": "test",
         "lint": "./node_modules/.bin/eslint src/*.js",
-        "pre-push": "npm run lint",
         "prepare": "husky install"
     },
     "repository": {
@@ -32,5 +31,10 @@
         "eslint-config-airbnb-base": "^14.2.1",
         "eslint-plugin-import": "^2.23.4",
         "husky": "^6.0.0"
+    },
+    "husky": {
+        "hooks": {
+            "pre-push": "npm run lint"
+        }
     }
 }
