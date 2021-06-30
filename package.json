@@ -6,8 +6,8 @@
     "scripts": {
         "test": "test",
         "lint": "./node_modules/.bin/eslint src/*.js",
-        "prepare": "husky install",
-        "prepush": "npm run lint"
+        "pre-push": "npm run lint",
+        "prepare": "husky install"
     },
     "repository": {
         "type": "git",
