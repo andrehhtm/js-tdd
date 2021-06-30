@@ -1,27 +1,33 @@
 {
-  "name": "js-tdd",
-  "version": "1.0.0",
-  "description": "Repo de testes automatizados com js",
-  "main": "index.js",
-  "scripts": {
-    "test": "test"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/andrehhtm/js-tdd.git"
-  },
-  "keywords": [
-    "Javascript",
-    "TDD",
-    "Test",
-    "Driven",
-    "Development",
-    "Testes"
-  ],
-  "author": "André Ramos",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/andrehhtm/js-tdd/issues"
-  },
-  "homepage": "https://github.com/andrehhtm/js-tdd#readme"
+    "name": "js-tdd",
+    "version": "1.0.0",
+    "description": "Repo de testes automatizados com js",
+    "main": "index.js",
+    "scripts": {
+        "test": "test",
+        "lint": "./node_modules/.bin/eslint src/*.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/andrehhtm/js-tdd.git"
+    },
+    "keywords": [
+        "Javascript",
+        "TDD",
+        "Test",
+        "Driven",
+        "Development",
+        "Testes"
+    ],
+    "author": "André Ramos",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/andrehhtm/js-tdd/issues"
+    },
+    "homepage": "https://github.com/andrehhtm/js-tdd#readme",
+    "devDependencies": {
+        "eslint": "^7.29.0",
+        "eslint-config-airbnb-base": "^14.2.1",
+        "eslint-plugin-import": "^2.23.4"
+    }
 }
